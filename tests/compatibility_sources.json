@@ -1,0 +1,82 @@
+[
+  {
+    "file": "validation_output/public_sem/silver_nanowires.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Silver_Nanowires.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Silver_Nanowires.jpg",
+    "author": "Maido Merisalu",
+    "license": "CC BY-SA 4.0",
+    "changes": "Unmodified original; metadata stripped copies created separately for testing",
+    "sha256": "31d8f0da7a775475f54da4e4c78373d11fa67fbd6d97ed610c3bbe7fa2db3d8a"
+  },
+  {
+    "file": "validation_output/public_sem/cu_catalyst.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cu_Catalyst.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cu_Catalyst.jpg",
+    "author": "SvenOras",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified original; metadata stripped copies created separately for testing",
+    "sha256": "fe32086c528b8762936e8918d075112f62ebb61c3f11b4fda4ca52178d2a866f"
+  },
+  {
+    "file": "validation_output/public_sem/fei_nova_nanocigarette.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Nanosigaret.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Nanosigaret.png",
+    "author": "Mikk Vahtrus",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified original; metadata stripped copies created separately for testing",
+    "sha256": "b03ab930f2840e2c03f71be1654903987998a43faac7c91ef6522a50b20c5c78"
+  },
+  {
+    "file": "validation_output/public_sem/jeol_neoscope_shell.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aragonite_layers_in_a_blue_mussel_shell.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Aragonite_layers_in_a_blue_mussel_shell.jpg",
+    "author": "Glenn Elert",
+    "license": "CC BY-SA 3.0",
+    "changes": "Unmodified original; metadata stripped copies created separately for testing",
+    "sha256": "e6ebb89cc1bce7cac5daafe7794776f17aa171a9c1880ffca292447673237237"
+  },
+  {
+    "file": "validation_output/public_sem/tescan_mira_1.jpg",
+    "page": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/index.html",
+    "url": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/images/large/A756_Ant_head_and_mouthparts_X153_ETD_5kV_depth.jpg",
+    "author": "Jeremy Poole",
+    "license": "Copyright author; local evaluation only, not bundled with the application",
+    "changes": "Unmodified downloaded image",
+    "sha256": "1efb81be2bc22f35e79d2ef8e0bff3c556552d16a91fb4847ab60986929a542c"
+  },
+  {
+    "file": "validation_output/public_sem/tescan_mira_2.jpg",
+    "page": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/index.html",
+    "url": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/images/large/A756_Ant_head_and_mouthparts_X153_ETD_5kV_depth-take_2.jpg",
+    "author": "Jeremy Poole",
+    "license": "Copyright author; local evaluation only, not bundled with the application",
+    "changes": "Unmodified downloaded image",
+    "sha256": "6c6efbf3fd56b2a333535b781121c058e78ae5c3f9362783d85f43a7b4a6cd3d"
+  },
+  {
+    "file": "validation_output/public_sem/tescan_mira_3.jpg",
+    "page": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/index.html",
+    "url": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/images/large/A756_Ant_head_and_mouthparts_X153_ETD_5kV_depth_1.jpg",
+    "author": "Jeremy Poole",
+    "license": "Copyright author; local evaluation only, not bundled with the application",
+    "changes": "Unmodified downloaded image",
+    "sha256": "258ae3d5b8387f31a24500af9fa2f159a4368ba75849e04b296af4d8b45d642c"
+  },
+  {
+    "file": "validation_output/fei_samples/tiff_FEI_Helios.zip",
+    "url": "https://raw.githubusercontent.com/hyperspy/rosettasciio/main/rsciio/tests/data/tiff/tiff_FEI_Helios.zip",
+    "page": "https://github.com/hyperspy/rosettasciio/blob/main/rsciio/tests/test_tiff.py",
+    "author": "RosettaSciIO contributors",
+    "license": "See upstream repository GPL-3.0 and data provenance; local evaluation only",
+    "sha256": "eb9e82342152ffd55024356cefdfeffc6c37159172e99e320132e9228f8c5e82"
+  },
+  {
+    "file": "validation_output/fei_samples/example1.png",
+    "url": "https://raw.githubusercontent.com/lukmuk/em-scalebartools/main/images/example1.png",
+    "page": "https://github.com/lukmuk/em-scalebartools",
+    "author": "lukmuk / EMScaleBarTools contributors",
+    "license": "MIT repository; local screenshot evaluation only",
+    "sha256": "08757cff65aec278281aa8ac7e16873fe14bfac707c52ee5d696b1e3ed42c035",
+    "changes": "Crop left original panel (7,48,775,597) to FEI_Quanta_screenshot_crop.png; crop processed panel (788,48,1558,560) to processed_black_bar.png"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "file": "01_Zeiss_metadata/200rpm21.tif",
+    "expected_status": "automatic",
+    "sha256": "9f4fe48c3bcf9b71290a2da5c09b49996a054f7b1d0719fbd56da80f8b764513",
+    "source": "User supplied",
+    "original_file": "example_archive/original_user_examples/200rpm21.tif",
+    "redistributable": false
+  },
+  {
+    "file": "01_Zeiss_metadata/200rpm22.tif",
+    "expected_status": "automatic",
+    "sha256": "d0927afe938c77ca0a8f56a1a82715f0a3298dffec00b53e4b4d310664f9f263",
+    "source": "User supplied",
+    "original_file": "example_archive/original_user_examples/200rpm22.tif",
+    "redistributable": false
+  },
+  {
+    "file": "02_Zeiss_no_metadata/200rpm31(1).tif",
+    "expected_status": "automatic",
+    "sha256": "ea8ae7a74ff0e696f30d9fda1751257beb7589d71290334372fb3151e30e7874",
+    "source": "User supplied",
+    "original_file": "example_archive/original_user_examples/200rpm31(1).tif",
+    "redistributable": false
+  },
+  {
+    "file": "03_JEOL_solid/4.tif",
+    "expected_status": "automatic",
+    "sha256": "1f4243cd45b6feb8c0f9417fdf256abce32d76a7930f9e2280bf7f41ad78e832",
+    "source": "User supplied",
+    "original_file": "example_archive/original_user_examples/4.tif",
+    "redistributable": false
+  },
+  {
+    "file": "03_JEOL_solid/6.tif",
+    "expected_status": "automatic",
+    "sha256": "df8fb3ca355ee9f404e1aec99e8834d47369996f47eee644eca6e08f034eeb4f",
+    "source": "User supplied",
+    "original_file": "example_archive/original_user_examples/6.tif",
+    "redistributable": false
+  },
+  {
+    "file": "04_FEI_split/FEI-Helios-Ebeam-8bits.tif",
+    "expected_status": "automatic",
+    "sha256": "de85e8d4ebb1cd039259953dae0b4c986d15e49ce521b94d2be98374baf9a9cd",
+    "source_page": "https://github.com/hyperspy/rosettasciio/blob/main/rsciio/tests/test_tiff.py",
+    "author": "RosettaSciIO contributors",
+    "license": "See upstream repository GPL-3.0 and data provenance; local evaluation only",
+    "original_file": "validation_output/fei_samples/FEI-Helios-Ebeam-8bits.tif",
+    "redistributable": false
+  },
+  {
+    "file": "04_FEI_split/cu_catalyst.jpg",
+    "expected_status": "automatic",
+    "sha256": "fe32086c528b8762936e8918d075112f62ebb61c3f11b4fda4ca52178d2a866f",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Cu_Catalyst.jpg",
+    "author": "SvenOras",
+    "license": "CC BY 4.0",
+    "original_file": "validation_output/public_sem/cu_catalyst.jpg",
+    "redistributable": true
+  },
+  {
+    "file": "05_FEI_solid_overlay/fei_nova_nanocigarette.png",
+    "expected_status": "automatic",
+    "sha256": "b03ab930f2840e2c03f71be1654903987998a43faac7c91ef6522a50b20c5c78",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nanosigaret.png",
+    "author": "Mikk Vahtrus",
+    "license": "CC BY 4.0",
+    "original_file": "validation_output/public_sem/fei_nova_nanocigarette.png",
+    "redistributable": true
+  },
+  {
+    "file": "06_JEOL_NeoScope/jeol_neoscope_shell.jpg",
+    "expected_status": "review",
+    "sha256": "e6ebb89cc1bce7cac5daafe7794776f17aa171a9c1880ffca292447673237237",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Aragonite_layers_in_a_blue_mussel_shell.jpg",
+    "author": "Glenn Elert",
+    "license": "CC BY-SA 3.0",
+    "original_file": "validation_output/public_sem/jeol_neoscope_shell.jpg",
+    "redistributable": true
+  },
+  {
+    "file": "07_TESCAN_bracket/tescan_mira_1.jpg",
+    "expected_status": "review",
+    "sha256": "1efb81be2bc22f35e79d2ef8e0bff3c556552d16a91fb4847ab60986929a542c",
+    "source_page": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/index.html",
+    "author": "Jeremy Poole",
+    "license": "Copyright author; local evaluation only, not bundled with the application",
+    "original_file": "validation_output/public_sem/tescan_mira_1.jpg",
+    "redistributable": false
+  },
+  {
+    "file": "07_TESCAN_bracket/tescan_mira_2.jpg",
+    "expected_status": "review",
+    "sha256": "6c6efbf3fd56b2a333535b781121c058e78ae5c3f9362783d85f43a7b4a6cd3d",
+    "source_page": "https://www.jeremypoolesem.org.uk/lightroomgalleries/MIRA/AutumnMisc2020/index.html",
+    "author": "Jeremy Poole",
+    "license": "Copyright author; local evaluation only, not bundled with the application",
+    "original_file": "validation_output/public_sem/tescan_mira_2.jpg",
+    "redistributable": false
+  },
+  {
+    "file": "08_light_background/silver_nanowires.jpg",
+    "expected_status": "review",
+    "sha256": "31d8f0da7a775475f54da4e4c78373d11fa67fbd6d97ed610c3bbe7fa2db3d8a",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Silver_Nanowires.jpg",
+    "author": "Maido Merisalu",
+    "license": "CC BY-SA 4.0",
+    "original_file": "validation_output/public_sem/silver_nanowires.jpg",
+    "redistributable": true
+  },
+  {
+    "file": "09_black_bar/processed_black_bar.png",
+    "expected_status": "review",
+    "sha256": "9f983800c27bc867185d975ef9ead511366f823f3e8eefb9a14522c9294c4850",
+    "source_page": "https://github.com/lukmuk/em-scalebartools",
+    "author": "lukmuk / EMScaleBarTools contributors",
+    "license": "MIT repository; local screenshot evaluation only",
+    "original_file": "validation_output/fei_samples/processed_black_bar.png",
+    "redistributable": false
+  },
+  {
+    "file": "10_no_scale/FEI-Helios-navcam.tif",
+    "expected_status": "no_scale",
+    "sha256": "b7c1a8a12fc540ebe35f6777c44d903c6d791ce252568071210b7f77c8285848",
+    "source_page": "https://github.com/hyperspy/rosettasciio/blob/main/rsciio/tests/test_tiff.py",
+    "author": "RosettaSciIO contributors",
+    "license": "See upstream repository GPL-3.0 and data provenance; local evaluation only",
+    "original_file": "validation_output/fei_samples/FEI-Helios-navcam.tif",
+    "redistributable": false
+  }
+]
