@@ -18,7 +18,7 @@ from semlegend import __version__
 
 
 def public_files():
-    files = [p for pattern in ('*.py', '*.bat', '*.md', 'requirements*.txt', 'LICENSE', '.gitignore', '.gitattributes')
+    files = [p for pattern in ('*.py', '*.ps1', '*.bat', '*.md', 'requirements*.txt', 'LICENSE', '.gitignore', '.gitattributes')
              for p in ROOT.glob(pattern)]
     for folder in ('semlegend', 'tests', 'tools', '.github', 'licenses'):
         files.extend(p for p in (ROOT / folder).rglob('*')
