@@ -4,7 +4,7 @@
 
 ## 下载与启动
 
-Windows 用户可从 [GitHub Releases](https://github.com/SekiroYoumu/sem-legend/releases/latest) 下载 `SEM-Legend-0.1.0-windows-x64.zip`，解压整个文件夹后双击 `SEM-Legend.exe`。免安装包自带 Python 和运行依赖，使用时无需联网；请保留旁边的 `_internal` 文件夹。图像默认导出到程序旁边的 `output`，请放在可写的目录运行。
+Windows 用户可从 [GitHub Releases](https://github.com/SekiroYoumu/sem-legend/releases/latest) 下载 `SEM-Legend-0.1.1-windows-x64.zip`，解压整个文件夹后双击 `SEM-Legend.exe`。免安装包自带 Python 和运行依赖，使用时无需联网；请保留旁边的 `_internal` 文件夹。图像默认导出到程序旁边的 `output`，请放在可写的目录运行。
 
 源码用户按下列步骤启动：
 

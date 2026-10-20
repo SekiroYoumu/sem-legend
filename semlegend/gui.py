@@ -218,7 +218,11 @@ class App:
         row = ttk.Frame(parent); row.pack(fill='x', pady=(7, 0))
         ttk.Label(row, text=label).pack(side='left')
         v = tk.DoubleVar(value=getattr(self.settings, key)); self.vars[key] = v
-        ttk.Label(row, textvariable=v, width=8).pack(side='right')
+        entry = ttk.Spinbox(row, textvariable=v, from_=low, to=high,
+                            increment=.1, width=9, command=self.schedule_preview)
+        entry.pack(side='right')
+        entry.bind('<Return>', lambda e: self.schedule_preview())
+        entry.bind('<FocusOut>', lambda e: self.schedule_preview())
         ttk.Scale(parent, variable=v, from_=low, to=high,
                   command=lambda value: self.schedule_preview()).pack(fill='x')
 
@@ -232,7 +236,9 @@ class App:
             else:
                 value = float(raw)
                 if not math.isfinite(value): raise ValueError('参数必须是有限数字')
-                if isinstance(default, int):
+                # Float fields can have integer-valued defaults (e.g. gamma=1).
+                # Only the declared integer field, output_width, needs rounding checks.
+                if f.type is int or f.type == 'int':
                     if not value.is_integer(): raise ValueError('输出宽度必须是整数')
                     value = int(value)
             setattr(result, f.name, value)
